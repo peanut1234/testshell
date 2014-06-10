@@ -10,9 +10,9 @@
 // start main funciton.
 int main( void )
 {
-    int i = 0;
-    char buf[BUF_SIZE];
-    char *com[] = { buf, NULL };
+    int   i = 0;
+    char  buf[BUF_SIZE];
+    char  *com[] = { buf, NULL };
     pid_t ret;
 
 
@@ -67,4 +67,4 @@ int main( void )
     }
     // End Shell and this Program.
     return 0;
-}     // end main function.
+}
