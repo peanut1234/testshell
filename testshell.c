@@ -37,7 +37,6 @@ int main( void )
         }
         // End exit.
 
-
         ret = fork();
 
         // Start Error check fork.
